@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLCF MOUAU - Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Church Blog</h1>
+        <input type="text" id="search-bar" placeholder="Search blog posts..." onkeyup="searchPosts()">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="blog">
+        <h2>Latest Blog Posts</h2>
+
+        <article class="post">
+            <h3>Growing in Faith</h3>
+            <p class="date">Published on February 25, 2025</p>
+            <p>Faith is a journey, and every step brings us closer to God...</p>
+            <a href="#">Read More</a>
+        </article>
+
+        <!-- Video Sermon -->
+        <article class="post">
+            <h3>Sunday Sermon: The Power of Faith</h3>
+            <p class="date">Published on February 20, 2025</p>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>be a part of the GCK program and be  and be blessed.</p>
+        </article>
+
+        <!-- Audio Sermon -->
+        <article class="post">
+    <h3>Weekly sermon - The lord of host</h3>
+    <p class="date">Published on February 15, 2025</p>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    <br>
+    <a href="audio.mp3" download class="download-btn">Download Audio</a>
+    <p>Listen to this inspiring sermon and be quickened spiritually.</p>
+</article>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Church Name. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

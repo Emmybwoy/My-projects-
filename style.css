@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+    width: 100%;
+    outline: none;
+}
+
+header {
+    background-color: #4a148c;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('church.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.content, .contact {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4a148c;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.blog {
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.blog h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    color: #4a148c;
+}
+
+.date {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.post a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4a148c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post video, .post audio {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.post h3 {
+    color: #4a148c;
+}
+
+.post {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+    font-size: 0.9em;
+    color: gray;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up the full height */
+}
+
+.blog {
+    flex-grow: 1; /* Allows content to expand while pushing the footer down */
+}
+
+footer {
+    background-color: #4a148c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Change from absolute to relative */
+    width: 100%;
+}
+
+..post {
+    text-align: center; /* Centers inline elements like <a> inside .post */
+}
+
+.download-btn {
+    display: inline-block; /* Keeps it as a button */
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General Section Styling */
+section {
+    padding: 30px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Welcome Section */
+.welcome h2 {
+    color: #4a148c;
+}
+
+/* Events */
+.events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events li {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+/* Sermon of the Week */
+.sermon video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Call to Action (Buttons) */
+.cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4a148c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta .donate {
+    background-color: #d32f2f;
+}
+
+.cta .live {
+    background-color: #1976d2;
+}
+
+/* Bible Verse */
+.bible-verse blockquote {
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Testimonies */
+.testimony {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 5px solid #4a148c;
+    margin-bottom: 10px;
+}
+
+/* General Section Styling */
+section {
+    padding: 30px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Mission & Vision */
+.mission-vision {
+    display: flex;
+    flex-direction: column;
+}
+
+.mission, .vision {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #4a148c;
+}
+
+/* Pastor Section */
+.pastor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Beliefs List */
+.beliefs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.beliefs li {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+video{
+    width:560px;
+    height:315p;
+}
